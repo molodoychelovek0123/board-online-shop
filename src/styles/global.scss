@@ -12,6 +12,11 @@ html {
   max-width: 1342px;
 }
 
+.headroom-wrapper{
+  position: relative;
+  z-index: 99;
+}
+
 .section-header {
   transition: all .3s ease-in-out !important;
   transform: translateY(0);
@@ -58,6 +63,11 @@ html {
   transform: translateX(0%);
 
   .board {
+    mask: url("/mask.svg");
+    -webkit-mask: url("/mask.svg") no-repeat left/contain;
+    -o-mask: url("/mask.svg") no-repeat left/contain;
+    -ms-mask: url("/mask.svg") no-repeat left/contain;
+
     display: inline-block;
     width: 18vw;
     padding-top: 60vw;
@@ -73,6 +83,9 @@ html {
       height: 420px;
       width: 110px;
       margin-right: 110px;
+    }
+    &.bg-pattern {
+      background-image: url("/pattern.png");
     }
   }
 
@@ -102,6 +115,13 @@ html {
   }
 }
 
+section.hero-section + section {
+  transform: translateY(-20px);
+  background: #fff;
+  z-index: 20;
+  position: relative;
+  border-radius: 20px;
+}
 
 .news-container {
 
@@ -143,7 +163,7 @@ html {
 }
 
 .cards-overlay{
-  background: linear-gradient(180deg, rgba(37, 33, 19, 0.00) 0%, rgba(0, 0, 0, 100%) 100%);
+  background: linear-gradient(180deg, rgba(37, 33, 19, 0) 30%, #000000bf 100%);
   display: block !important;
   z-index: 0;
 }
