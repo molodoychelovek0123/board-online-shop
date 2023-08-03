@@ -5,6 +5,8 @@ import {Gallery} from "@/components/gallery/Gallery";
 import collections from '@/data/collections.json';
 import {IGalleryItem} from "@/components/gallery/GalleryItem";
 import {IProduct, ProductList} from "@/components/product-list/ProductList";
+import {BlogSection, IArticle} from "@/components/news-section/BlogSection";
+import {constantArticles} from "@/data/constants";
 
 interface ICollection {
     title: string,
@@ -14,6 +16,7 @@ interface ICollection {
     products: IProduct[],
     Also_Like: IProduct[]
 }
+const articles : IArticle[] = constantArticles;
 
 const Page: React.FC = () => {
     const router = useRouter()
@@ -37,6 +40,8 @@ const Page: React.FC = () => {
                        image={collection.bannerImage}/>
             <Gallery items={collection.gallery}/>
             <ProductList title={collection.title} products={collection.products}/>
+            <ProductList title="You may also like" products={collection.Also_Like}/>
+            <BlogSection title={"News"} postLimit={3} blogArticles={articles}/>
         </div>
     )
 }
