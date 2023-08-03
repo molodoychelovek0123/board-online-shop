@@ -112,6 +112,9 @@ module.exports = {
       lineHeight:{
         "title": ".908 !important",
         "text": "1.0833 !important"
+      },
+      flexBasis:{
+        "custom": "22.129%"
       }
     },
   },

@@ -2,6 +2,7 @@ import {IHeaderLink} from "@/components/common/Header";
 import {IBoard} from "@/components/hero/Boards";
 import {ICollection} from "@/components/featured-collections/CollectionItem";
 import {IArticle} from "@/components/news-section/BlogSection";
+import {IAdvantageItem} from "@/components/advantages/AdvantageItem";
 
 export const constantLinks: IHeaderLink[] = [
     {
@@ -144,5 +145,24 @@ export const constantArticles: IArticle[] = [
         link: "#",
         created_at: "04.27.2023",
         image: "/article-6.jpg"
+    }
+]
+
+export const constantAdvantages: IAdvantageItem[] = [
+    {
+        icon_link: "/selection.svg",
+        title: "Most Extensive Selection",
+        description: "You will always find the latest products and the best product info from all of our brands."
+    },
+    {
+        icon_link: '/free-shipping.svg',
+        title: "Free Shipping & Returns",
+        description: "We offer free shipping on continental orders over $75 and free 60-days returns with no restocking fees.",
+    },
+    {
+        icon_link: "/customer-service.svg",
+        title: "Customer Service",
+        description: "We consider our community a vital part of NHS and love to hear from you. You can contact us by phone, email or live chat.",
+
     }
 ]

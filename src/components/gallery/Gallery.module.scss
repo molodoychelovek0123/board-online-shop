@@ -1,0 +1,95 @@
+.gallery_container {
+  display: grid;
+  gap: 20px 20px;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f"
+    "g"
+    "h";
+
+
+  @media (min-width: 768px) {
+
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a a b"
+    "a a c"
+    "d d d"
+    "d d d"
+    "e e f"
+    "e e f"
+    "g h h"
+    "g h h";
+
+  }
+  @media (min-width: 1280px) {
+    grid-template-columns: repeat(4, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas:
+    "a a b c"
+    "a a d d"
+    "e e f f"
+    "g h f f";
+  }
+
+  div:nth-child(8n+1){ // 0, 8, 16, 24
+    grid-area: a;
+  }
+  div:nth-child(8n+2){ // 1, 9, 17, 25
+    grid-area: b;
+  }
+  div:nth-child(8n+3){ // 2, 10, 18, 26
+    grid-area: c;
+  }
+
+  div:nth-child(8n+4) {
+    grid-area: d;
+  }
+
+  div:nth-child(8n+5) {
+    grid-area: e;
+  }
+
+  div:nth-child(8n+6) {
+    grid-area: f;
+  }
+
+  div:nth-child(8n+7) {
+    grid-area: g;
+  }
+
+  div:nth-child(8n+8) {
+    grid-area: h;
+  }
+
+  div{
+    min-height: 300px;
+    @media (min-width: 768px) {
+        min-height: 200px;
+    }
+    @media (min-width: 1280px){
+      min-height: 240px;
+    }
+  }
+
+  .gallery_item{
+    &.active{
+      img{
+        width: 90% !important;
+        margin: 0 auto;
+        height: auto !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

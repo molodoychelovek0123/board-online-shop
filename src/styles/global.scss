@@ -1,11 +1,18 @@
-html {
-  font-size: 16px;
-  font-family: 'SF Pro Display', 'Assistant', sans-serif;
-}
+@import "fonts/SFProDisplay/stylesheet.css";
+
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 16px;
+    font-family: 'SF Pro Display', 'Assistant', sans-serif;
+    @apply text-gray
+  }
+}
 
 .container{
   width: 90%;

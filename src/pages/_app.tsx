@@ -4,6 +4,7 @@ import React, {ReactNode} from 'react';
 import '@/styles/global.scss';
 import {Header, IHeaderLink} from "@/components/common/Header";
 import {constantLinks} from "@/data/constants";
+import {usePathname} from "next/navigation";
 
 interface LayoutProps {
     children: ReactNode;
@@ -12,9 +13,11 @@ interface LayoutProps {
 const links : IHeaderLink[] = constantLinks;
 
 const Layout: React.FC<LayoutProps> = ({children}) => {
+    const pageType = usePathname();
+
     return (
         <>
-            <Header links={links}/>
+            <Header links={links} dark={!(pageType === "/" || pageType === "/home")}/>
             <main className="">{children}</main>
             <footer>
                 {/* Your footer content goes here */}
