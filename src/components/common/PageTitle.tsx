@@ -2,7 +2,7 @@ import React from "react";
 
 export const PageTitle = ({title, description, image}: { title: string, description: string, image?: string }) => {
     return (
-        <div className={`p-10 md:p-16 bg-cover ${image ? "" : "bg-solid-color"} `} style={{backgroundImage: `url("${image}")`}}>
+        <div className={`p-10 md:p-16 bg-cover mb-16 xl:mb-24 lg:min-h-550 ${image ? "" : "bg-solid-color"} `} style={{backgroundImage: `url("${image}")`}}>
 
             <div className="container">
                 <div className="max-w-5xl flex flex-col md:flex-row justify-between">

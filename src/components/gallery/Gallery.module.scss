@@ -40,33 +40,33 @@
     "g h f f";
   }
 
-  div:nth-child(8n+1){ // 0, 8, 16, 24
+  >div:nth-child(8n+1){ // 0, 8, 16, 24
     grid-area: a;
   }
-  div:nth-child(8n+2){ // 1, 9, 17, 25
+  >div:nth-child(8n+2){ // 1, 9, 17, 25
     grid-area: b;
   }
-  div:nth-child(8n+3){ // 2, 10, 18, 26
+  >div:nth-child(8n+3){ // 2, 10, 18, 26
     grid-area: c;
   }
 
-  div:nth-child(8n+4) {
+  >div:nth-child(8n+4) {
     grid-area: d;
   }
 
-  div:nth-child(8n+5) {
+  >div:nth-child(8n+5) {
     grid-area: e;
   }
 
-  div:nth-child(8n+6) {
+  >div:nth-child(8n+6) {
     grid-area: f;
   }
 
-  div:nth-child(8n+7) {
+  >div:nth-child(8n+7) {
     grid-area: g;
   }
 
-  div:nth-child(8n+8) {
+  >div:nth-child(8n+8) {
     grid-area: h;
   }
 
@@ -78,6 +78,9 @@
     @media (min-width: 1280px){
       min-height: 240px;
     }
+  }
+  >div div{
+    height: 100%;
   }
 
   .gallery_item{

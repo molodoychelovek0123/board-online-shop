@@ -1,0 +1,350 @@
+{
+  "frame-kit": {
+    "title": "Frame Kit",
+    "description": "Show off your skateboards with elegance and style. 2023. In this sequel to The Legend of Zelda: Breath of the Wild, Link's adventure horizons will become even broader as he sets out to explore the skies over the vast expanse of Hyrule.",
+    "bannerImage": "/collections/banner-1.jpg",
+    "gallery": [
+      { "link": "/gallery-images/gallery-5.jpg", "alt": "Image 1" },
+      { "link": "/gallery-images/gallery-6.jpg", "alt": "Image 2" },
+      { "link": "/gallery-images/gallery-7.jpg", "alt": "Image 3" },
+      { "link": "/gallery-images/gallery-8.jpg", "alt": "Image 4" }
+    ],
+    "products": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ],
+    "Also_Like": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ]
+  },
+  "deck-display": {
+    "title": "Deck Display",
+    "description": "Show off your skateboards with elegance and style. 2023. In this sequel to The Legend of Zelda: Breath of the Wild, Link's adventure horizons will become even broader as he sets out to explore the skies over the vast expanse of Hyrule.",
+    "bannerImage": "/collections/banner-2.jpg",
+    "gallery": [
+      { "link": "/gallery-images/gallery-9.jpg", "alt": "Image 5" },
+      { "link": "/gallery-images/gallery-10.jpg", "alt": "Image 6" },
+      { "link": "/gallery-images/gallery-11.jpg", "alt": "Image 7" },
+      { "link": "/gallery-images/gallery-12.jpg", "alt": "Image 8" }
+    ],
+    "products": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ],
+    "Also_Like": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ]
+  },
+  "snap-display": {
+    "title": "Snap Display",
+    "description": "Show off your skateboards with elegance and style. 2023. In this sequel to The Legend of Zelda: Breath of the Wild, Link's adventure horizons will become even broader as he sets out to explore the skies over the vast expanse of Hyrule.",
+    "bannerImage": "/collections/banner-3.jpg",
+    "gallery": [
+      { "link": "/gallery-images/gallery-12.jpg", "alt": "Image 13" },
+      { "link": "/gallery-images/gallery-13.jpg", "alt": "Image 14" },
+      { "link": "/gallery-images/gallery-14.jpg", "alt": "Image 15" },
+      { "link": "/gallery-images/gallery-15.jpg", "alt": "Image 16" }
+    ],
+    "products": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-5.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-6.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ],
+    "Also_Like": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ]
+  },
+  "holder": {
+    "title": "Wall Frame & Tech Deck holder",
+    "description": "A 2 in 1 holder that can be used as a wall holder or a deck holder. It is made of high-quality materials and is durable.",
+    "bannerImage": "/collections/banner-4.jpg",
+    "gallery": [
+      { "link": "/gallery-images/gallery-12.jpg", "alt": "Image 13" },
+      { "link": "/gallery-images/gallery-13.jpg", "alt": "Image 14" },
+      { "link": "/gallery-images/gallery-14.jpg", "alt": "Image 15" },
+      { "link": "/gallery-images/gallery-15.jpg", "alt": "Image 16" }
+    ],
+    "products": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-5.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-6.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ],
+    "Also_Like": [
+      {
+        "title": "Deck Display 10pc",
+        "price": "$40,19",
+        "image": "/product-1.jpg",
+        "tags": [
+          "Deck display",
+          "10PC"
+        ]
+      },
+      {
+        "title": "Deck Display 5pc",
+        "price": "$40,19",
+        "image": "/product-2.jpg",
+        "tags": [
+          "Deck display",
+          "5PC"
+        ]
+      },
+      {
+        "title": "Deck Display 3pc",
+        "price": "$40,19",
+        "image": "/product-3.jpg",
+        "tags": [
+          "Deck display",
+          "3PC"
+        ]
+      },
+      {
+        "title": "Deck Display 1pc",
+        "price": "$40,19",
+        "image": "/product-4.jpg",
+        "tags": [
+          "Deck display",
+          "1PC"
+        ]
+      }
+    ]
+  }
+}

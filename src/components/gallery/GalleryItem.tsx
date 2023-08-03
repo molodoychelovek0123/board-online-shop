@@ -33,17 +33,19 @@ export const GalleryItem = ({item}: { item: IGalleryItem }) => {
 
 
     return (
-        <motion.div layout onClick={clickHandler}
-                    className={`${styles.gallery_item} ${isOpen ? "fixed top-0 left-0  h-full w-full " + styles.active : "relative"}
+        <div>
+            <motion.div layout onClick={clickHandler}
+                        className={`cursor-pointer ${styles.gallery_item} ${isOpen ? "fixed top-0 left-0  h-full w-full " + styles.active : "relative"}
          ${bgOpen && isOpen ? "bg-black/50" : ""}
          ${isOpen ? "z-50" : ""}`}>
-            <Image src={item.link}
-                   alt={item.alt ? item.alt : `Sk8ology gallery photo`}
-                   sizes="100vw"
-                   placeholder="blur"
-                   blurDataURL="/blur-image.png"
-                   fill={true}
-                   className={`${isOpen ? "object-contain z-50" : "object-cover"} rounded-20 `}/>
-        </motion.div>
+                <Image src={item.link}
+                       alt={item.alt ? item.alt : `Sk8ology gallery photo`}
+                       sizes="100vw"
+                       placeholder="blur"
+                       blurDataURL="/blur-image.png"
+                       fill={true}
+                       className={`${isOpen ? "object-contain z-50" : "object-cover"} rounded-20 `}/>
+            </motion.div>
+        </div>
     )
 }
