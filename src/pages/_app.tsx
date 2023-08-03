@@ -2,6 +2,7 @@ import {AppProps} from 'next/app';
 import Head from 'next/head';
 import React, {ReactNode} from 'react';
 import '@/styles/global.scss';
+import '@/components/common/mobile-menu/mobile.scss';
 import {Header, IHeaderLink} from "@/components/common/Header";
 import {constantLinks} from "@/data/constants";
 import {usePathname} from "next/navigation";
