@@ -85,25 +85,25 @@ export const constantBoards: IBoard[] = [
 export const constantCollections:ICollection[] = [
     {
         image: "/collection-1.jpg",
-        link: "/frame-kit",
+        link: "/collections/frame-kit",
         title: "Show off your skateboards with elegance and style",
         subtitle: "frame kit",
     },
     {
         image: "/collection-2.jpg",
-        link: "/snap-display",
+        link: "/collections/snap-display",
         title: "Smart thoughts on favorite things",
         subtitle: "core frames",
     },
     {
         image: "/collection-3.jpg",
-        link: "/deck-display",
+        link: "/collections/deck-display",
         title: "Literally holding on to history and culture",
         subtitle: "deck displays",
     },
     {
         image: "/collection-4.jpg",
-        link: "/holder",
+        link: "/collections/holder",
         title: "A large collection of the most unusual art",
         subtitle: "FLOATING DECK",
     }
