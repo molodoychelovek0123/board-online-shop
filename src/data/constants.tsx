@@ -14,15 +14,15 @@ export const constantLinks: IHeaderLink[] = [
         text: "About"
     },
     {
-        url: "/products",
+        url: "/product",
         text: "Products"
     },
     {
-        url: "/community",
+        url: "/about",
         text: "Community"
     },
     {
-        url: "/how-to-use",
+        url: "/about",
         text: "How to Use"
     }
 ]
@@ -85,25 +85,25 @@ export const constantBoards: IBoard[] = [
 export const constantCollections:ICollection[] = [
     {
         image: "/collection-1.jpg",
-        link: "/",
+        link: "/frame-kit",
         title: "Show off your skateboards with elegance and style",
         subtitle: "frame kit",
     },
     {
         image: "/collection-2.jpg",
-        link: "/",
+        link: "/snap-display",
         title: "Smart thoughts on favorite things",
         subtitle: "core frames",
     },
     {
         image: "/collection-3.jpg",
-        link: "/",
+        link: "/deck-display",
         title: "Literally holding on to history and culture",
         subtitle: "deck displays",
     },
     {
         image: "/collection-4.jpg",
-        link: "/",
+        link: "/holder",
         title: "A large collection of the most unusual art",
         subtitle: "FLOATING DECK",
     }

@@ -4,6 +4,7 @@ import React, {ReactNode} from 'react';
 import '@/styles/global.scss';
 import '@/components/common/mobile-menu/mobile.scss';
 import {Header, IHeaderLink} from "@/components/common/Header";
+import {Footer} from "@/components/common/Footer";
 import {constantLinks} from "@/data/constants";
 import {usePathname} from "next/navigation";
 
@@ -20,10 +21,7 @@ const Layout: React.FC<LayoutProps> = ({children}) => {
         <>
             <Header links={links} dark={!(pageType === "/" || pageType === "/home")}/>
             <main className="">{children}</main>
-            <footer>
-                {/* Your footer content goes here */}
-                <p>© {new Date().getFullYear()} My Website Footer</p>
-            </footer>
+            <Footer/>
         </>
     );
 };
