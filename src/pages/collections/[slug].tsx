@@ -8,7 +8,7 @@ import {IProduct, ProductList} from "@/components/product-list/ProductList";
 import {BlogSection, IArticle} from "@/components/news-section/BlogSection";
 import {constantArticles} from "@/data/constants";
 
-interface ICollection {
+export interface ICollectionData {
     title: string,
     description: string,
     bannerImage: string,
@@ -30,7 +30,7 @@ const Page: React.FC = () => {
         return <h1 className="py-96 text-center text-5.5xl">Collection not found</h1>;
     }
     // @ts-ignore
-    const collection: ICollection = collections[slug];
+    const collection: ICollectionData = collections[slug];
 
 
     return (

@@ -81,7 +81,7 @@ export const Menu = ({links}: { links: IHeaderLink[] }) => {
                         <motion.div className="menu menu-categories">
                             <h4 onClick={() => {
                                 toggleMenu()
-                            }}>SIZE OPTIONS &#8594;</h4>
+                            }}>ONLINE STORE &#8594;</h4>
                             <ul className="item-list">
                                 {leftMenu.map((item, i) => (
                                     <li key={i} className="item" onClick={(e) => {
@@ -96,7 +96,7 @@ export const Menu = ({links}: { links: IHeaderLink[] }) => {
                         <motion.div className="menu menu-sizes">
                             <h4 onClick={() => {
                                 toggleMenu()
-                            }}>&#8592; CATEGORIES</h4>
+                            }}>&#8592; MAIN MENU</h4>
                             <ul className="item-list">
                                 {rightMenu.map((text, i) => (
                                     <li key={i} className="item">

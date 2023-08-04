@@ -50,8 +50,8 @@ module.exports = {
         'gray-400': '#c7c7c7', // for bg-cards
         'gray-500': '#454450',
         'gray-600': '#a3a3a3',
-        'gray-700': '#b6b6b5',
-        'gray-800': '#c8c8c8',
+        'gray-700': '#a2a2a8',
+        'gray-800': '#ccc',
         'gray-900': '#dbdbdb',
         'solid-color': '#76b1f6',
         'solid-color-50': '#b3c0e6',
@@ -96,16 +96,20 @@ module.exports = {
       },
       minWidth:{
         '550': '550px',
+        '200': '200px',
+        '120': '120px',
       },
       maxWidth:{
         '1xl': "37.25rem",
         '256': "256px",
+        '352': "22rem",
         '944': '59rem'
       },
       padding:{
         '9' : '2.25rem'
       },
       margin:{
+        '13': "3.25rem",
         '15': "3.75rem"
       },
 

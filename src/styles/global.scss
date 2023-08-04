@@ -169,8 +169,12 @@ section.hero-section + section {
   }
 }
 
-.cards-overlay{
+.cards-overlay {
   background: linear-gradient(180deg, rgba(37, 33, 19, 0) 30%, #000000bf 100%);
   display: block !important;
   z-index: 0;
+}
+
+.product-page__images{
+
 }
